@@ -29,6 +29,15 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
+.nav-button{
+  text-decoration: none;
+  color: black;
+}
+.nav-button:hover{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
 .menu li{
   list-style: none;
   display: flex;
@@ -116,7 +125,7 @@ nav{
 
 .project-intro{
   width: 95%;
-  height: 60%;
+  height: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -204,5 +213,37 @@ nav{
   padding-bottom: 50px;
   justify-content: space-between;
   display: flex;
+  align-items: center;
+}
+/* <--------------------------contactme--------------------------> */
+.block{
+  width: 95%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* <--------------------------footer--------------------------> */
+
+footer{
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+.ending li{
+  list-style: none;
+  display: flex;
+  margin: 5%;
+}
+.ending{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
