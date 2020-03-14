@@ -112,7 +112,7 @@ nav{
   background: rgba(0, 0, 0);
 }
 
-/* <----------------Personalproductbox----------------> */
+/* <--------------------------Personalproductbox--------------------------> */
 
 .project-intro{
   width: 95%;
@@ -162,3 +162,33 @@ nav{
   width: 400px;
   height: auto;
 } */
+
+/* <--------------------------Processing--------------------------> */
+
+.processing-body{
+  width: 95%;
+  margin: 250px auto;
+}
+.line-processing{
+  width: 95%;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.processing-body-text{
+  width: 95%;
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-right:100px;
+}
+.processing-img-container{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  padding-left:  50px;
+}
+.processing-img-container img{
+  width: 300px;
+  height: auto;
+}
