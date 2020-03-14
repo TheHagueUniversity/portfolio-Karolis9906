@@ -111,3 +111,54 @@ nav{
 .work-4{
   background: rgba(0, 0, 0);
 }
+
+/* <----------------Personalproductbox----------------> */
+
+.project-intro{
+  width: 95%;
+  height: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro-text{
+    width: 60%;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.product-box-body{
+  width: 95%;
+  margin: 250px auto;
+}
+.line{
+  width: 95%;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.body-text{
+  width: 40%;
+  padding-left: 50px;
+}
+.box-img-container{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left:  100px;
+}
+.box-img-container img{
+  width: 400px;
+  height: auto;
+}
+/* .box-img-container1{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left:  100px
+}
+.box-img-container1 img{
+  width: 400px;
+  height: auto;
+} */
